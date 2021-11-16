@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*body{
+	background: url("Recursos/imagenes/logo4.jpg") no-repeat;
+	justify-content: center;
+
+}*/
+
+/* Formulario*/
+#contacto {
+	padding: 40px 0px;
+	color: #000000;
+	width: 500px;
+	border-radius: 25px;
+	margin: 0 auto;
+   
+}
+#contacto h4{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+#contacto form{
+	max-width: 80%;
+	margin: 0 auto;
+}
+.datos-form{
+	display: flex;
+
+
+}
+ 
+.mapa{
+	padding: 40px 0 px;
+	width: 500px;
+	margin-bottom: 10px;
+
+}
+.titulo h2 {
+	text-align: center;
+}
+
+ /*.datos-form {
+    width: 500px;
+    background: rgb(0, 0, 0,.4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    
+} */
+
+.datos-form div{
+	padding: 10px;
+	flex: 1;
+}
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+form input,
+form textarea{
+	background: #20B2AA	;
+	border-radius: 10px;
+	border: 2px solid #8dcca9;
+	padding: 10px 5px;
+	outline: 0;
+	color: #fff;
+	width: 100%;
+}
+form input:focus,
+form textarea:focus{
+	border-color: #4bae77;
+	box-shadow: 0 0 0 1px #4bae77;
+}
+form input::placerholder,
+form textarea::placerholder{
+	color: #fff;
+}
+.Empresa{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+.URL{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+.mensaje{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+
+}
+.boton-formulario .boton-saber-mas{
+	display: block;
+	color: #000000;
+	text-align: center;
+	transition: 0.4s;
+	text-decoration: none;
+	box-shadow: 0 0 0 1px #20B2AA;
+	border-radius: 10px;
+	padding: 10PX;
+
+
+}
+.boton-formulario .boton-saber-mas:hover{
+	background: #20B2AA;
+
+
+
+	
+} 
+@media (max-width: 768px){
+
+/*Formulario responsive*/ 
+.datos-form{
+	flex-direction: column;
+}
+}
